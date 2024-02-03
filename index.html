@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>College websight</title>
+</head>
+<body>
+    <section class="header">
+      <nav>
+        <a href="index.html" class="logo"><img src="images/logo2.png" class="logo"> </a> 
+        <div class="nav-link" id="navLink">
+          <i class="fa-sharp fa-solid fa-circle-xmark"  onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+      </nav>
+    
+  <div class="headline">
+    <h1>LEARN FOR EARN</h1>
+    <P>Empower yourself through education and unlock your limitless potential for success.<br>Education is the key to a brighter future.</P>
+    <div>
+      <button type="button"><span></span>VISIT TO KNOW MORE</button>
+      <!-- <button type="button"><span></span>LOGIN</button> -->
+    </div>
+  </div>
+  </section>
+
+  <!-- ------------------------course section--------------------------------- -->
+
+
+
+
+
+
+  <section class="course">
+    <h1>COURSES WE OFFER</h1>
+    <p1>Welocme to AK University</p1>
+    <div class="course-row">  
+         <div class="course-col">
+             <h2>Diploma</h2>
+             <p>The university is proud to offer a wide range of diplomas to help students achieve their academic and professional goals. With programs in fields such as business, healthcare, and technology, our diplomas provide the knowledge and skills needed to succeed in today's competitive job market. Visit our university website to learn more about our diploma offerings and take the first step towards your future career.</p>
+         </div>
+         <div class="course-col">
+           <h2>Graduate Degree</h2>
+           <p>In addition to our diploma programs, the university is excited to offer undergraduate degrees in a variety of fields. Our undergraduate programs are designed to provide a comprehensive education that prepares students for success in their chosen careers. With experienced faculty and cutting-edge curriculum, our undergraduate degrees offer a solid foundation for pursuing further education or entering the workforce.</p>
+         </div>
+         <div class="course-col">
+           <h2>Postgraduate Degree</h2>
+           <p>Our university is dedicated to providing students with a path to success at every level of education, which is why we offer a range of postgraduate degree programs. With programs in fields such as business, healthcare, technology, and more, our postgraduate degrees provide advanced knowledge and skills that are essential for professional growth and advancement.</p>
+         </div>
+    </div>
+  </section>
+ 
+ 
+
+  <!-- ------------------------------------------------ABOUT------------------------------ -->
+ 
+  <section class="about-us">
+            <h2>ABOUT US</h2>
+            <p>The university is a leading institution of higher education that provides students with a world-class education and a range of academic and extracurricular opportunities. With state-of-the-art facilities, experienced faculty, and cutting-edge curriculum, our university offers a comprehensive education that prepares students for success in their chosen fields.</p>   
+            <button type="button"><span></span>KNOW MORE</button>
+  </section>
+
+
+
+
+
+  <!-- ---------javascript for menu toggle------- -->
+  <script>
+     
+     var navLink = document.getElementById("navLink");
+     function showmenu(){
+        navLink.style.right = "-50px"
+     }
+     function hidemenu(){
+        navLink.style.right = "-220px"
+     }
+  </script>
+</body>
+</html>
